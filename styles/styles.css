@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.open {
+    background-color: rgba(0, 0, 0, 0.738);
+}
+
+.center {
+    text-align: center;
+}
+
+.logo {
+    width: 21%;
+    height: auto;
+    margin-bottom: 20px;
+    height: 50%;
+    margin-top: 10%;
+
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.welcome-text-1, .welcome-text-2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-size: 45px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra al texto */
+
+}
+
+.welcome-text-2 {
+    letter-spacing: 3px;
+    font-size: 50px;
+}
