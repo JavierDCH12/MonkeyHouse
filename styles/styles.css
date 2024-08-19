@@ -3,6 +3,10 @@ html, body {
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 .portada {
     background-color: rgba(0, 0, 0, 0.738);
 }
@@ -135,6 +139,12 @@ html, body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     letter-spacing: 5px;
+    text-decoration: none;
+    
+}
+
+.redes-getback:hover{
+    cursor: pointer;
 }
 
 .redes-logo {
@@ -147,6 +157,7 @@ html, body {
 
 .grupo-redes {
     display: flex;
+    flex-direction: row;
     justify-content: center; 
     gap: 20px; 
     margin-top: 50px;
@@ -158,8 +169,29 @@ html, body {
     transition: transform 0.3s ease-in-out;
 }
 
+
+.enlaces-redes{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+}
+
+.textosocial{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    letter-spacing: 5px;
+    
+}
+
+.textosocial:hover{
+    cursor: pointer;
+}
+
+
+
 .redsocial:hover {
-    transform: scale(1.1); /* Aumenta el tamaño de la red social al pasar el ratón */
+    transform: scale(1.1); 
 }
 
 
