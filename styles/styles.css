@@ -116,28 +116,37 @@ html, body {
 
 /****************************************REDES SOCIALES***************************************************/
 
+.redes {
+    background-color: black;
+    width: 100%;
+    min-height: 100vh; 
+    padding: 20px 0; 
+}
 
-.redes-logo{
+.redes-logo {
     width: 35vh;
     height: 35vh;
-    margin:5%;
-    margin-left: 42%;
+    margin: 0 auto; 
+    display: block;
 }
 
-.grupo-redes{
+.grupo-redes {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 50px;
 }
 
-.redsocial{
+.redsocial {
     width: 33vh;
-    
+    height: auto;
+    transition: transform 0.3s ease-in-out;
 }
 
-
-
-
+.redsocial:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la red social al pasar el ratón */
+}
 
 
 
