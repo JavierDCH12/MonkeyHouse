@@ -38,6 +38,11 @@ html, body {
 }
 
 
+.welcome-text-1, .welcome-text-2 {
+    opacity: 1; /* Comienza invisible */
+    transition: opacity 0.8s ease-in-out; /* Transición suave de opacidad */
+}
+
 /************************************ ESTILOS DEL INDEX**************************************/
 
 
@@ -112,8 +117,23 @@ html, body {
 /****************************************REDES SOCIALES***************************************************/
 
 
+.redes-logo{
+    width: 35vh;
+    height: 35vh;
+    margin:5%;
+    margin-left: 42%;
+}
 
+.grupo-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
+.redsocial{
+    width: 33vh;
+    
+}
 
 
 
