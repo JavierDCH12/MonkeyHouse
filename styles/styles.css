@@ -150,8 +150,8 @@ a{
 .redes-logo {
     width: 35vh;
     height: 35vh;
-    margin: 0; 
-    margin-left: 50%;
+    margin-left: 24%;
+    margin-right: 3%;
     
 }
 
@@ -164,7 +164,7 @@ a{
 }
 
 .redsocial {
-    width: 33vh;
+    width: 30vh;
     height: auto;
     transition: transform 0.3s ease-in-out;
 }
@@ -194,6 +194,12 @@ a{
     transform: scale(1.1); 
 }
 
+
+.nav-redes{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
 
 
 
