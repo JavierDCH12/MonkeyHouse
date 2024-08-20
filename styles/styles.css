@@ -237,6 +237,48 @@ a{
 }
 
 
+/****************************************NUESTRA TIENDA************************************************/
+
+.header-tienda{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+
+}
+
+.main-tienda{
+    height: 80vh;
+    background-color: black;
+}
+
+.nav-tienda{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-tienda{
+    width: 30%;
+    height: 80%;
+    padding: 1%;
+}
+
+.option-tienda{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
 
 /****************************************ANIMACIONES***************************************************/
 
