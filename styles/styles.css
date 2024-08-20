@@ -203,15 +203,39 @@ a{
 }
 
 /*****************************************LOCALIZACION**************************************************/
-
-.mapa{
-    width: 30%;
-    height: 50vh;
-    margin-left: 35%;
-    margin-top: 3%;
-
-
+.map-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; /* Centrar verticalmente */
+    padding: 50px;
 }
+
+.map-text {
+    width: 16%; /* Ajusta el ancho del texto */
+    display: flex;
+    flex-direction: column;
+}
+
+.map-group-p {
+    color: white;
+    text-align: justify;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.map-h3{
+    color: white;
+    text-align: justify;
+    margin: 10px 0;
+    font-size: 25px;
+}
+.mapa {
+    width: 40%;
+    height: 300px; /* Ajusta la altura del mapa según tus necesidades */
+    border-radius: 5px; /* Añade un borde redondeado si lo deseas */
+}
+
 
 
 /****************************************ANIMACIONES***************************************************/
