@@ -67,8 +67,8 @@ a{
 }
 
 .index-header-logo {
-    width: 8%;
-    margin: 1%;
+    width: 10%;
+    padding-top: 13%;
     height: auto;
     animation: rotate 5s linear infinite;
 }
@@ -250,6 +250,8 @@ a{
 .main-tienda{
     height: 80vh;
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-tienda{
@@ -273,6 +275,19 @@ a{
     font-size: 20px;
 }
 
+.txt-tienda{
+    color: white;
+
+}
+
+.txt-tienda-uno{
+    padding-left: 2%;
+}
+
+
+.main-tienda{
+    padding: 5%;
+}
 
 
 

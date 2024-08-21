@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -13,41 +13,95 @@
       name="description"
       content="Tienda de ropa de Segunda Mano en Cáceres"
     />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net;"
+    />
+
     <title>Monkey House: Nuestras Redes Sociales</title>
 
     <link rel="stylesheet" href="../styles/styles.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container-fluid">
-        <header class="row">
-            <div class="col-md-12 header-tienda">
-                <a href="../pages/index.html" class="logo-tienda">
-                    <img src="../resources/images/mono.png" alt="logo" title="The Monkey House" class="logo-tienda">
-                </a>
-                
-                <nav class="nav-tienda">
-                    <h2 class="each-option-tienda">
-                        <a href="../pages/tienda.html" class="option-tienda">Monkey House: Nuestra Tienda</a>
-                    </h2>
-                    <h2 class="each-option-tienda">
-                        <a href="../pages/localizacion.html" class="option-tienda">¿Dónde estamos?</a>
-                    </h2>
-                    <h2 class="each-option-tienda">
-                        <a href="../pages/redes.html" class="option-tienda">Nuestras Redes Sociales</a>
-                    </h2>
-                </nav>
+      <header class="row">
+        <div class="col-md-12 header-tienda">
+          <a href="../pages/index.html" class="logo-tienda">
+            <img
+              src="../resources/images/mono.png"
+              alt="logo"
+              title="The Monkey House"
+              class="logo-tienda"
+            />
+          </a>
 
-                <h1 class="index-header-h1">The Monkey House</h1>
+          <nav class="nav-tienda">
+            <h2 class="each-option-tienda">
+              <a href="../pages/tienda.html" class="option-tienda"
+                >Monkey House: Nuestra Tienda</a
+              >
+            </h2>
+            <h2 class="each-option-tienda">
+              <a href="../pages/localizacion.html" class="option-tienda"
+                >¿Dónde estamos?</a
+              >
+            </h2>
+            <h2 class="each-option-tienda">
+              <a href="../pages/redes.html" class="option-tienda"
+                >Nuestras Redes Sociales</a
+              >
+            </h2>
+          </nav>
+
+          <h1 class="index-header-h1">The Monkey House</h1>
+        </div>
+      </header>
+
+      <main class="row">
+        <div class="col-md-12 main-tienda">
+          <h2 class="txt-tienda txt-tienda-uno">
+            Nuestra Tienda en Cáceres: The Monkey House
+          </h2>
+          <p class="txt-tienda">
+            Ea labore minim minim nostrud et laborum mollit non cillum qui
+            cillum do. Minim ipsum eu ut ut reprehenderit velit sunt consequat
+            ipsum voluptate fugiat excepteur. Veniam esse ullamco qui elit magna
+            ut consequat elit duis eu aliquip adipisicing. In ut ullamco
+            occaecat elit pariatur ullamco deserunt in tempor consectetur.
+          </p>
+
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="resources/images/mono.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="resources/images/mono.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="resources/images/mono.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
             </div>
-        </header>
-
-        <main class="row">
-            <div class="col-md-12 main-tienda">
-
-            </div>
-
-        </main>
+          </div>
+        </div>
+      </main>
     </div>
-</body>
+  </body>
 </html>
